@@ -79,11 +79,82 @@ body {
     display: flex;
     gap: 32px;
     justify-content: center;
-    align-content:
+    align-content: center;
 }
+
 .card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.card-img {
     border: 2px solid #3882f6;
     height: 200px;
     width: 200px;
     border-radius: 16px;
+}
+
+.card-text {
+    color: #1f2937;
+    font-size: 12px;
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 36px;
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    justify-content: center;
+    align-content: center;
+}
+
+.quote {
+    width: 800px;
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-speaker {
+    text-align: right;
+}
+
+.action-space {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 70px 50px;
+    padding: 36px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 128px;
+    
+}
+
+.action-msg-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+.action-button {
+    background: transparent;
+    border: 1 #ffffff;
+    font-size: 16px;
+    font-weight: bold;   
+    color: #f9faf8;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 48px;
+    text-align: center;
 }
